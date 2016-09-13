@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
 //        applicationId "com.jph.takephoto"
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 24
         versionCode 25
         versionName "2.0.5"
