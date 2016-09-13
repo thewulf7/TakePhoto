@@ -112,7 +112,7 @@ public class TUtils {
             }
         }else {
             if (contextWrap.getFragment()!=null){
-                Crop.of(imageUri, outPutUri).asSquare().start(contextWrap.getActivity(),contextWrap.getFragment());
+                Crop.of(imageUri, outPutUri).asSquare().start(contextWrap.getActivity(), contextWrap.getFragment());
             }else {
                 Crop.of(imageUri, outPutUri).asSquare().start(contextWrap.getActivity());
             }

@@ -2,10 +2,12 @@
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral() // be careful, only uses HTTP
+        maven { url "https://clojars.org/repo/" }
+        maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.1.3'
 //        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 //        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
         // NOTE: Do not place your application dependencies here; they belong
@@ -15,6 +17,8 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        mavenCentral() // be careful, only uses HTTP
+        maven { url "https://clojars.org/repo/" }
+        maven { url "https://jitpack.io" }
     }
 }
