@@ -22,7 +22,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:support-v4:23.3.0'
-    compile 'com.soundcloud.android.crop:lib_crop:1.0.0'
+    compile 'com.soundcloud.android:android-crop:1.0.1'
 //    compile project(':android-crop/:lib_crop')
 }
 //apply from: "bintrayUpload.gradle"
